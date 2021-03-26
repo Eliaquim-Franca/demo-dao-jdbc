@@ -43,5 +43,9 @@ public class Program {
 		seller.setName("Batman");
 		sellerDao.update(seller);
 		System.out.println("Update completed ");
+		
+		System.out.println("\n+++++ Test 6 : Delete +++++");
+		sellerDao.deleteById(11);
+		System.out.println("Delete completed ");		
 	}
 }
